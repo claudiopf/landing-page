@@ -1,0 +1,33 @@
+section {
+  padding-top: 50px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown .dropdown-menu {
+  display: none;
+}
+
+.card1 {
+  background-color: rgb(219, 91, 91);
+  height: 300px;
+  width: 300px;
+}
+
+.card2 {
+  background-color: rgb(27, 179, 103);
+  height: 300px;
+  width: 300px;
+}
+
+.card3 {
+  background-color: rgb(23, 135, 209);
+  height: 300px;
+  width: 300px;
+}
+
+.form-control {
+  resize: none;
+}

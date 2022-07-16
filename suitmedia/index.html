@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Front End - Starter Kit</title>
+    <!-- CSS Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+    <!-- CSS Sendiri-->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Font Awesome Icon-->
+    <link rel="stylesheet" href="css/fa/css/font-awesome.min.css">
+
+  </head>
+  <body id="home">
+    <!-- Awal Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#home">Company</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                About
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">History</a></li>
+                <li><a class="dropdown-item" href="#">Vision & Mission</a></li>
+              </ul>
+            </li>
+            <li class="nav-item ms-3">
+              <a class="nav-link" href="#work">Our Work</a>
+            </li>
+            <li class="nav-item ms-3">
+              <a class="nav-link" href="#team">Our Team</a>
+            </li>
+            <li class="nav-item ms-3">
+              <a class="nav-link" href="#contact">Contact US</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar-->
+    <!-- Awal Carousel-->
+    <section id="home">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/bg.jpg" class="d-block w-100">
+          <div class="carousel-caption d-none d-md-block mb-5 text-uppercase">
+            <h5>This is a place where technology & creativity fused into digital chemistry</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/about-bg.jpg" class="d-block w-100">
+          <div class="carousel-caption d-none d-md-block mb-5 text-uppercase">
+            <h5>we don't have the best but we have the greatest team</h5>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+    <!-- Akhir Jumbotron-->
+    <!-- Awal Value-->
+    <section id="value">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="text-center">
+            <h2 class="fw-bold text-uppercase">Our Values</h2>
+          </div>
+          <div class="card1 col-md-3 text-center mt-5 ms-3 border border-3 border-danger">
+            <i class="fa fa-lightbulb-o fa-2x mt-4" aria-hidden="true"></i>
+            <p class="text-uppercase mt-2 fw-bold">Innovative</p>
+            <div class="card-body">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod quidem libero atque possimus, quibusdam nobis neque id incidunt reiciendis dolores? Commodi repellendus nostrum autem a dolores eligendi ea soluta eaque.
+            </div>
+          </div>
+          <div class="card2 col-md-3 text-center mt-5 ms-3 border border-3 border-success">
+            <i class="fa fa-university fa-2x mt-4" aria-hidden="true"></i>
+            <p class="text-uppercase mt-2 fw-bold">Loyalty</p>
+            <div class="card-body">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod quidem libero atque possimus, quibusdam nobis neque id incidunt reiciendis dolores? Commodi repellendus nostrum autem a dolores eligendi ea soluta eaque.
+            </div>
+          </div>
+          <div class="card3 col-md-3 text-center mt-5 ms-3 border border-3 border-primary">
+            <i class="fa fa-balance-scale fa-2x mt-4" aria-hidden="true"></i>
+            <p class="text-uppercase mt-2 fw-bold">Respect</p>
+            <div class="card-body">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod quidem libero atque possimus, quibusdam nobis neque id incidunt reiciendis dolores? Commodi repellendus nostrum autem a dolores eligendi ea soluta eaque.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> 
+    <!-- Akhir Value-->
+    <!-- Awal Contact-->
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2 class="fw-bold text-uppercase">Contact US</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form id="form" onsubmit="return formValidation();">
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name" />
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp"  />
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3"  ></textarea>
+              </div>
+              <div class="d-grid gap-2 mb-5">
+              <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Contact-->
+    <!-- Awal Footer-->
+    <footer class="text-white bg-dark text-center text-lg-start">
+      <div class="text-center p-3">
+        Copyright © 2016. PT Company
+        <br>
+        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+      </div>
+    </footer>
+    <!-- Akhir Footer-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="js/formValidation.js"></script>
+  </body>
+</html>
